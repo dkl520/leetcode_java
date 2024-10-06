@@ -4,7 +4,7 @@ package com.leetcode2.org.图论;
 import java.util.*;
 
 public class Dijkstra {
-
+//     bfs+贪心算法
     // 图的边，包含目标节点和目标节点的权重
     static class Edge {
         int target;  // 目标节点的索引  
