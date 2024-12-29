@@ -1,11 +1,5 @@
 package com.leetcode2.org.二叉树;
 
-class TreeNode {
-    int val;
-    TreeNode left, right;
-    TreeNode(int x) { val = x; }
-}
-
 public class MorrisTraversal {
     public void morrisInorderTraversal(TreeNode root) {
         TreeNode cur = root;

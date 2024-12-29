@@ -36,8 +36,8 @@ public class Solution560_2 {
 
     // 主方法，用于测试
     public static void main(String[] args) {
-        int[] nums = {1, 1, 1};
-        int k = 2;
+        int[] nums = {1, 2, 3};
+        int k = 3;
         // 创建一个Solution560_2的实例并调用subarraySum方法
         // 注意：这里应该是new Solution560_2()而不是new Solution560()，因为类名是Solution560_2
         System.out.println(new Solution560_2().subarraySum(nums, k));  // 输出: 2
