@@ -7,10 +7,12 @@ public class Q1 {
         int n = grid[0].length;
         for (int i = 1; i < m; i++) {
             for (int j = 0; j < n; j++) {
+
                 if (grid[i][j] <= grid[i - 1][j]) {
                     count += (grid[i - 1][j] + 1) - grid[i][j];
                     grid[i][j] = grid[i - 1][j] + 1;
                 }
+
 
             }
         }
